@@ -1,0 +1,7 @@
+1607444745873	Rename type 'ProductoDAOSpringJDBC'
+1607444856402	Rename type 'LineaCompraSpringJDBC'
+1607449010975	Delete element
+1607449089850	Delete element
+1607517244216	Encapsulate field 'jdbcTemplate'
+1607610745344	Rename type 'LineaCompra'
+1607616458534	Delete element

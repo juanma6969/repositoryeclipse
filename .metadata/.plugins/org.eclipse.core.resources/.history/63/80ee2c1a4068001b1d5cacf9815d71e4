@@ -1,0 +1,15 @@
+package controller;
+
+import java.util.ArrayList;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+import model.Multiplicacion;
+
+@ManagedBean(name="operacion")
+@RequestScoped
+public class OperacionController {
+private ArrayList<Multiplicacion> multi=new ArrayList<Multiplicacion>();
+	
+}

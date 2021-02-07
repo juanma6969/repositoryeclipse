@@ -1,0 +1,5 @@
+package com.openwebinars.spring.modelo.data;
+
+public interface CategoriaRepository extends JpaRepository<Categoria,Long> {
+
+}

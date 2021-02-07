@@ -1,0 +1,78 @@
+package model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+
+
+/**
+ * The persistent class for the tservicio database table.
+ * 
+ */
+@Entity
+@NamedQuery(name="Tservicio.findAll", query="SELECT t FROM Tservicio t")
+public class Tservicio implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private TservicioPK id;
+
+	@Temporal(TemporalType.DATE)
+	private Date fechaServicio;
+
+	private double precio;
+
+	//bi-directional many-to-one association to Tconsumicion
+	@ManyToOne
+	@JoinColumn(name="IdConsumicionC")
+	private Tconsumicion tconsumicion;
+
+	//bi-directional many-to-one association to Ttservicio
+	@ManyToOne
+	@JoinColumn(name="IdTServicioT")
+	private Ttservicio ttservicio;
+
+	public Tservicio() {
+	}
+
+	public TservicioPK getId() {
+		return this.id;
+	}
+
+	public void setId(TservicioPK id) {
+		this.id = id;
+	}
+
+	public Date getFechaServicio() {
+		return this.fechaServicio;
+	}
+
+	public void setFechaServicio(Date fechaServicio) {
+		this.fechaServicio = fechaServicio;
+	}
+
+	public double getPrecio() {
+		return this.precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+
+	public Tconsumicion getTconsumicion() {
+		return this.tconsumicion;
+	}
+
+	public void setTconsumicion(Tconsumicion tconsumicion) {
+		this.tconsumicion = tconsumicion;
+	}
+
+	public Ttservicio getTtservicio() {
+		return this.ttservicio;
+	}
+
+	public void setTtservicio(Ttservicio ttservicio) {
+		this.ttservicio = ttservicio;
+	}
+
+}

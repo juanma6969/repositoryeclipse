@@ -1,0 +1,125 @@
+package com.clase.spring.dominio;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+
+
+@Entity
+@Table(name="thabitacion")
+@NamedQuery(name="Habitacion.findAll", query="SELECT h FROM Habitacion h")
+public class Habitacion implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int idHabitacion;
+
+	private int numero;
+
+	private double precio;
+
+	//bi-directional many-to-one association to Foto
+	@OneToMany(mappedBy="thabitacion", fetch=FetchType.EAGER)
+	private List<Foto> tfotos;
+
+	//bi-directional many-to-one association to Tipohabitacion
+	@ManyToOne
+	@JoinColumn(name="IdTHab")
+	private Tipohabitacion ttipohabitacion;
+
+	//bi-directional many-to-one association to Reserva
+	@OneToMany(mappedBy="thabitacion", fetch=FetchType.EAGER)
+	private List<Reserva> treservas;
+
+	public Habitacion() {
+	}
+
+	public int getIdHabitacion() {
+		return this.idHabitacion;
+	}
+
+	public void setIdHabitacion(int idHabitacion) {
+		this.idHabitacion = idHabitacion;
+	}
+
+	public int getNumero() {
+		return this.numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public double getPrecio() {
+		return this.precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+
+	public List<Foto> getTfotos() {
+		return this.tfotos;
+	}
+
+	public void setTfotos(List<Foto> tfotos) {
+		this.tfotos = tfotos;
+	}
+
+	public Foto addTfoto(Foto tfoto) {
+		getTfotos().add(tfoto);
+		tfoto.setThabitacion(this);
+
+		return tfoto;
+	}
+
+	public Foto removeTfoto(Foto tfoto) {
+		getTfotos().remove(tfoto);
+		tfoto.setThabitacion(null);
+
+		return tfoto;
+	}
+
+	public Tipohabitacion getTtipohabitacion() {
+		return this.ttipohabitacion;
+	}
+
+	public void setTtipohabitacion(Tipohabitacion ttipohabitacion) {
+		this.ttipohabitacion = ttipohabitacion;
+	}
+
+	public List<Reserva> getTreservas() {
+		return this.treservas;
+	}
+
+	public void setTreservas(List<Reserva> treservas) {
+		this.treservas = treservas;
+	}
+
+	public Reserva addTreserva(Reserva treserva) {
+		getTreservas().add(treserva);
+		treserva.setThabitacion(this);
+
+		return treserva;
+	}
+
+	public Reserva removeTreserva(Reserva treserva) {
+		getTreservas().remove(treserva);
+		treserva.setThabitacion(null);
+
+		return treserva;
+	}
+
+}

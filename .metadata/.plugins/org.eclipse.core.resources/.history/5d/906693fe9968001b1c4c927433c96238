@@ -1,0 +1,5 @@
+package com.clase.spring.dominio;
+
+public class TipoServicio {
+
+}

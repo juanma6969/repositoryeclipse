@@ -1,0 +1,23 @@
+package controller;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+import model.Multiplicacion;
+
+@ManagedBean(name="operacion")
+@SessionScoped
+public class OperacionController {
+private ArrayList<Multiplicacion> multi=new ArrayList<Multiplicacion>(Arrays.asList(new Multiplicacion("2*2","4"),
+		new Multiplicacion("2*3","6"),
+		new Multiplicacion("2*8","16"),
+		new Multiplicacion("6*10","60"),
+		new Multiplicacion("5*4","20"),
+		new Multiplicacion("6*5","30"),
+		new Multiplicacion("5*8","40"),
+		new Multiplicacion("1*2","2")));
+	
+}

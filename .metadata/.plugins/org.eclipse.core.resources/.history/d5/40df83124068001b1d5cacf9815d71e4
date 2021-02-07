@@ -1,0 +1,13 @@
+package controller;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+import model.Multiplicacion;
+
+@ManagedBean(name="operacion")
+@RequestScoped
+public class OperacionController {
+private Multiplicacion multi=new Multiplicacion("");
+	
+}

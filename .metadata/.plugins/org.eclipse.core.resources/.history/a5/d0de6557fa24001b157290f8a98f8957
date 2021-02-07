@@ -1,0 +1,37 @@
+package pfc.principal;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import pfc.dao.ClienteDAOInterface;
+import pfc.dao.ServicioDAOInterface;
+import pfc.dominio.Cliente;
+import pfc.dominio.Servicio;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Cliente cliente;
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		ClienteDAOInterface clientes  = (ClienteDAOInterface) context.getBean("clienteDAO"); 
+		ServicioDAOInterface servicios  = (ServicioDAOInterface) context.getBean("servicioDAO"); 
+		 
+		 
+	//	Cliente cliente1 = new Cliente("antonio", "pwantonio", "Antonio Alcaraz");
+	//	Cliente cliente2 = new Cliente("pedro", "pwpedro", "Pedro Zamora");
+	//	Cliente cliente3 = new Cliente("luis", "pwluis", "Luis Valera");
+		
+		//Servicio servicio1=new Servicio("Fontaneria",cliente1);
+		//Servicio servicio2=new Servicio("Mecanica",cliente1);
+		//Servicio servicio3=new Servicio("Limpieza",cliente2);
+		//System.out.println(clientes.alta(cliente1));
+		//clientes.alta(cliente2);
+		//System.out.println(clientes.alta(cliente3));
+		 
+		//clientes.baja(cliente1.getIdCliente());
+		/*cliente1.setNombre("Pepe");
+		clientes.modificacion(cliente1);*/
+
+	}
+
+}

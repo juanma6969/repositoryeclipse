@@ -1,0 +1,6 @@
+1611953199121	Rename resource 'LineaPedido.java'
+1612010436055	Rename resource 'ModeloInterface'
+1612020269646	Rename field 'lineasPedido'
+1612022601590	Rename field 'producto'
+1612022609000	Rename field 'pedido'
+1612024055365	Encapsulate field 'productoRepositorio'

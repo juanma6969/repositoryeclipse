@@ -1,0 +1,7 @@
+1587656969973	Encapsulate field 'usuario'
+1587657024324	Encapsulate field 'password'
+1587657100965	Encapsulate field 'rol'
+1587659708604	Move 'usuarios.xhtml' to 'views'
+1587661638680	Move 'admin.xhtml' to 'views'
+1587663098480	Encapsulate field 'texto'
+1587667007709	Encapsulate field 'Act'

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core" 
+      xmlns:h="http://java.sun.com/jsf/html">
+   <h:head>
+      <h:outputStylesheet library="css" name="styles.css"/>
+      <title>#{message.title}</title>
+   </h:head>
+   <h:body>
+      <h:form>
+         <h1>#{message.enterPayment}</h1>
+         <h:panelGrid columns="3">
+            #{message.amount}
+            <h:inputText id="amount" label="#{msgs.amount}"
+                         value="#{payment.amount}" required="true">
+               <f:convertNumber minFractionDigits="2"/>
+               <f:validateDoubleRange minimum="10" maximum="10000"/>
+            </h:inputText>
+            <h:message for="amount" styleClass="errorMessage"/>
+
+            #{message.creditCard}
+            <h:inputText id="card" label="#{message.creditCard}"
+                         value="#{payment.card}" required="true"
+                         requiredMessage="#{message.cardRequired}">
+               <f:validateLength minimum="13"/>
+            </h:inputText>
+            <h:message for="card" styleClass="errorMessage"/>
+
+            #{message.expirationDate}
+            <h:inputText id="date" label="#{message.expirationDate}"
+                         value="#{payment.date}" required="true">
+               <f:convertDateTime pattern="MM/yyyy"/>
+            </h:inputText>
+            <h:message for="date" styleClass="errorMessage"/>
+         </h:panelGrid>
+         <h:commandButton value="#{message.process}" action="result"/>
+         <h:commandButton value="#{message.cancel}" action="canceled" 
+                          immediate="true"/>
+      </h:form>
+   </h:body>
+</html>

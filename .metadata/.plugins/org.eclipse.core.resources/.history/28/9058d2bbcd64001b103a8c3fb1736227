@@ -1,0 +1,20 @@
+server.port=9009
+
+
+# Comprobación de la existencia de la ruta de la plantilla
+#spring.thymeleaf.check-template-location=true
+
+# Habilitación/Deshabilitación de Thymeleaf
+#spring.thymeleaf.enabled=true
+
+# Codificación de las plantillas
+#spring.thymeleaf.encoding=UTF-8
+
+# Modo en el que trabajará Thymeleaf (HTML, CSS, JAVASCRIPT, RAW, TEXT, XML)
+#spring.thymeleaf.mode=HTML
+
+# Prefijo para las rutas de las plantillas
+#spring.thymeleaf.prefix=classpath:/templates/
+
+# Sufijo para las rutas de las plantillas
+#spring.thymeleaf.suffix=.html

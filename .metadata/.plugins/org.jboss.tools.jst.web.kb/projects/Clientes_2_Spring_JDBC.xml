@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-util.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-zh-CN.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-cs.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/catalina.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/catalina-ant.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/jasper-el.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-jdbc/4.3.7.RELEASE/spring-jdbc-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/annotations-api.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/ecj-4.15.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/aspectj/aspectjweaver/1.8.5/aspectjweaver-1.8.5.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/jaspic-api.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-ru.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/jsp-api.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/websocket-api.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/catalina-ssi.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-pt-BR.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/el-api.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-ko.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-de.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-api.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-expression/4.3.7.RELEASE/spring-expression-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/jasper.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/catalina-ha.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/servlet-api.jar"/>
+  <path value="C:/Users/Juan Manuel/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar"/>
+  <path value="C:/Users/Juan Manuel/Desktop/Server/apache-tomcat-9.0.38/lib/tomcat-i18n-es.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="17" name="%0" offset="1011" path="%1"/>
+   <linked-el length="17" name="%0" offset="1169" path="%1"/>
+   <linked-el length="18" name="%2" offset="1329" path="%1"/>
+   <linked-el length="17" name="%3" offset="1011" path="%1"/>
+   <linked-el length="17" name="%3" offset="1169" path="%1"/>
+   <linked-el length="16" name="%4" offset="1483" path="%1"/>
+   <linked-el length="18" name="%5" offset="1329" path="%1"/>
+   <linked-el length="16" name="%6" offset="1483" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="spring" value="%0"/>
+  <alias path="aspectj" value="%2"/>
+  <alias path="/Clientes_2_Spring_JDBC/pom.xml" value="%1"/>
+  <alias path="spring.version" value="%3"/>
+  <alias path="mysql" value="%4"/>
+  <alias path="aspectj.version" value="%5"/>
+  <alias path="mysql.version" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

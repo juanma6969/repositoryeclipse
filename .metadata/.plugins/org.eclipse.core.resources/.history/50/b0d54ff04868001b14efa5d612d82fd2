@@ -1,0 +1,48 @@
+package model;
+
+import java.io.Serializable;
+
+public class Multiplicacion implements Serializable {
+private String multiplicacion;
+private String resultado;
+
+
+public Multiplicacion(String multi,String resultado) {
+	super();
+	this.multiplicacion=multi;
+	this.resultado=resultado;
+}
+
+public String getMultiplicacion() {
+	StringBuilder m=new StringBuilder();
+	String[] arrayM=multiplicacion.split("*");
+	int op1=Integer.parseInt(arrayM[0]);
+	Integer[] arrayCalc=new Integer[10];
+	
+	for(int i=0;i<=10;i++) {
+		arrayCalc[i]=op1*i;
+		m.append(op1+"*"+i+"="+arrayCalc[i]+"\n");
+	}
+	
+	return multiplicacion;
+}
+
+@Override
+public String toString() {
+	return "Multiplicacion [multiplicacion=" + multiplicacion + "resultado=" + resultado + "]";
+}
+public StringBuilder CalculoTabla() {
+	StringBuilder m=new StringBuilder();
+	String[] arrayM=multiplicacion.split("*");
+	int op1=Integer.parseInt(arrayM[0]);
+	Integer[] arrayCalc=new Integer[10];
+	
+
+	for(int i=0;i<=10;i++) {
+		arrayCalc[i]=op1*i;
+		m.append(op1+"*"+i+"="+arrayCalc[i]+"\n");
+		}
+	return m;
+}
+
+}

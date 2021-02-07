@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;idS&apos; in &apos;dominio.Servidor&apos; to &apos;IdServidor&apos;&#x0D;&#x0A;- Original project: &apos;Servidores_Spring_Jpa&apos;&#x0D;&#x0A;- Original element: &apos;dominio.Servidor.idS&apos;&#x0D;&#x0A;- Renamed element: &apos;dominio.Servidor.IdServidor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;idS&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;dominio{Servidor.java[Servidor^idS" name="IdServidor" references="true" setter="false" stamp="1610825948407" textual="false" version="1.0"/>
+</session>

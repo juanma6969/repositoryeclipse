@@ -1,0 +1,90 @@
+package model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+import java.util.List;
+
+
+/**
+ * The persistent class for the tlineafactura database table.
+ * 
+ */
+@Entity
+@NamedQuery(name="Tlineafactura.findAll", query="SELECT t FROM Tlineafactura t")
+public class Tlineafactura implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int idLineaFactura;
+
+	private String descripcion;
+
+	@Temporal(TemporalType.DATE)
+	private Date fechaFactura;
+
+	private byte pagado;
+
+	//bi-directional many-to-one association to Tfactura
+	@OneToMany(mappedBy="tlineafactura")
+	private List<Tfactura> tfacturas;
+
+	public Tlineafactura() {
+	}
+
+	public int getIdLineaFactura() {
+		return this.idLineaFactura;
+	}
+
+	public void setIdLineaFactura(int idLineaFactura) {
+		this.idLineaFactura = idLineaFactura;
+	}
+
+	public String getDescripcion() {
+		return this.descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public Date getFechaFactura() {
+		return this.fechaFactura;
+	}
+
+	public void setFechaFactura(Date fechaFactura) {
+		this.fechaFactura = fechaFactura;
+	}
+
+	public byte getPagado() {
+		return this.pagado;
+	}
+
+	public void setPagado(byte pagado) {
+		this.pagado = pagado;
+	}
+
+	public List<Tfactura> getTfacturas() {
+		return this.tfacturas;
+	}
+
+	public void setTfacturas(List<Tfactura> tfacturas) {
+		this.tfacturas = tfacturas;
+	}
+
+	public Tfactura addTfactura(Tfactura tfactura) {
+		getTfacturas().add(tfactura);
+		tfactura.setTlineafactura(this);
+
+		return tfactura;
+	}
+
+	public Tfactura removeTfactura(Tfactura tfactura) {
+		getTfacturas().remove(tfactura);
+		tfactura.setTlineafactura(null);
+
+		return tfactura;
+	}
+
+}

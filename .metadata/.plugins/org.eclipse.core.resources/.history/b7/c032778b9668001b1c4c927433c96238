@@ -1,0 +1,56 @@
+package model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * The primary key class for the tservicio database table.
+ * 
+ */
+@Embeddable
+public class TservicioPK implements Serializable {
+	//default serial version id, required for serializable classes.
+	private static final long serialVersionUID = 1L;
+
+	private int idServicio;
+
+	@Column(insertable=false, updatable=false)
+	private int idConsumicionC;
+
+	public TservicioPK() {
+	}
+	public int getIdServicio() {
+		return this.idServicio;
+	}
+	public void setIdServicio(int idServicio) {
+		this.idServicio = idServicio;
+	}
+	public int getIdConsumicionC() {
+		return this.idConsumicionC;
+	}
+	public void setIdConsumicionC(int idConsumicionC) {
+		this.idConsumicionC = idConsumicionC;
+	}
+
+	public boolean equals(Object other) {
+		if (this == other) {
+			return true;
+		}
+		if (!(other instanceof TservicioPK)) {
+			return false;
+		}
+		TservicioPK castOther = (TservicioPK)other;
+		return 
+			(this.idServicio == castOther.idServicio)
+			&& (this.idConsumicionC == castOther.idConsumicionC);
+	}
+
+	public int hashCode() {
+		final int prime = 31;
+		int hash = 17;
+		hash = hash * prime + this.idServicio;
+		hash = hash * prime + this.idConsumicionC;
+		
+		return hash;
+	}
+}

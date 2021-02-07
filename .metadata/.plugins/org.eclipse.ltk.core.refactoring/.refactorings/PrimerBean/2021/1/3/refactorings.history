@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.openwebinars.beans.Saludator.saludo&apos; in &apos;com.openwebinars.beans.Saludator&apos;&#x0D;&#x0A;- Original project: &apos;PrimerBean&apos;&#x0D;&#x0A;- Original element: &apos;com.openwebinars.beans.Saludator.saludo&apos;&#x0D;&#x0A;- Getter method name: &apos;getSaludo&apos;&#x0D;&#x0A;- Setter method name: &apos;setSaludo&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;saludo&apos;" flags="589830" getter="getSaludo" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.openwebinars.beans{Saludator.java[Saludator^saludo" insertion="-1" setter="setSaludo" stamp="1610957651782" version="1.0" visibility="1"/>
+</session>

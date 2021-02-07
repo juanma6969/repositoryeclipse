@@ -1,0 +1,53 @@
+package pfc.configuracion;
+
+import java.util.Properties;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@PropertySource({"classpath:pfc.configuracion.persistence-mysql.properties"})
+@ComponentScan(basePackages= {"pfc"})
+@EnableTransactionManagement
+public class configuracion {
+
+	@Autowired
+	private Environment env;
+	
+	
+	 @Bean
+	    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+		 LocalContainerEntityManagerFactoryBean em 
+	        = new LocalContainerEntityManagerFactoryBean();
+	      em.setDataSource(dataSource());
+	      em.setPackagesToScan(new String[] { "com.baeldung.persistence.model" });
+
+	      JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
+	      em.setJpaVendorAdapter(vendorAdapter);
+	      em.setJpaProperties(additionalProperties());
+
+	      return em;
+	    }
+	
+	
+	
+	private final Properties additionalProperties() {
+        final Properties hibernateProperties = new Properties();
+        hibernateProperties.setProperty("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
+        hibernateProperties.setProperty("hibernate.dialect", env.getProperty("hibernate.dialect"));
+
+        hibernateProperties.setProperty("hibernate.show_sql", "true");
+
+        // Envers properties
+        hibernateProperties.setProperty("org.hibernate.envers.audit_table_suffix", env.getProperty("envers.audit_table_suffix"));
+
+        return hibernateProperties;
+    }
+}

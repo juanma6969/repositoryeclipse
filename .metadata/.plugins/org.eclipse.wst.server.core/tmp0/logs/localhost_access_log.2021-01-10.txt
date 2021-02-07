@@ -1,0 +1,9 @@
+127.0.0.1 - - [10/Jan/2021:12:19:17 +0100] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:20 +0100] "GET /Servidores/ HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:20 +0100] "GET /Servidores/css/justified-nav.css HTTP/1.1" 200 2343
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:20 +0100] "GET /Servidores/css/bootstrap.min.css HTTP/1.1" 200 121265
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:20 +0100] "GET /Servidores/favicon.ico HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:24 +0100] "GET /Servidores/homepage HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:24 +0100] "GET /favicon.ico HTTP/1.1" 404 770
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:31 +0100] "GET /Servidores/admin?action=login HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [10/Jan/2021:12:19:37 +0100] "GET /Servidores/servidor?action=lista HTTP/1.1" 404 782

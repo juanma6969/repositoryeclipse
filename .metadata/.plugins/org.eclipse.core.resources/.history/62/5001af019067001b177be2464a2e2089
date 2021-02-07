@@ -1,0 +1,20 @@
+package model;
+
+import javax.annotation.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+@ManagedBean
+@RequestScoped
+public class ManagedBean1 {
+
+	private String mensaje="Hola mundo";
+	public ManagedBean1() {
+		
+	}
+	public String getMensaje() {
+		return mensaje;
+	}
+	public void setMensaje(String mensaje) {
+		this.mensaje = mensaje;
+	}
+}

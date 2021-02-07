@@ -1,0 +1,70 @@
+package com.clase.spring.dominio;
+
+import java.io.Serializable;
+
+import model.Entity;
+import model.GeneratedValue;
+import model.Habitacion;
+import model.Id;
+import model.JoinColumn;
+import model.Lob;
+import model.ManyToOne;
+import model.NamedQuery;
+import model.Table;
+
+@Entity
+@Table(name="tfoto")
+@NamedQuery(name="Foto.findAll", query="SELECT f FROM Foto f")
+public class Foto implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int idFotos;
+
+	private String descripcion;
+
+	@Lob
+	private byte[] imagen;
+
+	//bi-directional many-to-one association to Habitacion
+	@ManyToOne
+	@JoinColumn(name="IdHab")
+	private Habitacion thabitacion;
+
+	public Foto() {
+	}
+
+	public int getIdFotos() {
+		return this.idFotos;
+	}
+
+	public void setIdFotos(int idFotos) {
+		this.idFotos = idFotos;
+	}
+
+	public String getDescripcion() {
+		return this.descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public byte[] getImagen() {
+		return this.imagen;
+	}
+
+	public void setImagen(byte[] imagen) {
+		this.imagen = imagen;
+	}
+
+	public Habitacion getThabitacion() {
+		return this.thabitacion;
+	}
+
+	public void setThabitacion(Habitacion thabitacion) {
+		this.thabitacion = thabitacion;
+	}
+
+}

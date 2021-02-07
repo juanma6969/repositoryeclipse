@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Juan Manuel\eclipse-workspace\Proveedores_Spring_JBDC\src\applicationContext.xml"/>
+			<item value="C:\Users\Juan Manuel\Downloads\Gestion"/>
+			<item value="C:\Users\Juan Manuel\Desktop\PG2DAM\Clientes 1"/>
+			<item value="C:\Users\Juan Manuel\Desktop\Traduccion Modo Web"/>
+			<item value="C:\Users\Juan Manuel\Downloads\jsf"/>
+			<item value="C:\Users\Juan Manuel\Downloads\jsf\Practica3"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Juan Manuel\eclipse-workspace\12_Controladores202-1\src\main\java\com\openwebinars\spring"/>
+			<item value="C:\Users\Juan Manuel\eclipse-workspace\jsf-login"/>
+			<item value="C:\Users\Juan Manuel\eclipse-workspace\maven_project"/>
+			<item value="C:\Users\Juan Manuel\eclipse-workspace\TraduccionWeb\terminar.xhtml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.clase.spring.data"/>
+		</list>
+		<list key="name">
+			<item value="DespensaliaSD"/>
+		</list>
+		<list key="artifactId">
+			<item value="DespensaliaSD"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Servicios2SpringData"/>
+			<item value="ServicioSpringData"/>
+			<item value="Servidores_Spring_Jpa"/>
+			<item value="Servidores"/>
+			<item value="Ikeo"/>
+			<item value="Ejercicio5"/>
+			<item value="ClienteSpringData"/>
+			<item value="Despensalia_Spring_JDBC"/>
+			<item value="Proveedores_Spring_JPA"/>
+			<item value="Provedores_Spring_JBDC"/>
+			<item value="servicios"/>
+			<item value="clientes_2_Spring_JPA"/>
+			<item value="Clientes_3_Spring_JDBC"/>
+			<item value="EjBean"/>
+			<item value="Administrador"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Servicios2SpringData"/>
+			<item value="ServicioSpringData"/>
+			<item value="Servidores_Spring_Jpa"/>
+			<item value="Servidores"/>
+			<item value="Ikeo"/>
+			<item value="Ejercicio5"/>
+			<item value="ClienteSpringData"/>
+			<item value="Despensalia_Spring_JDBC"/>
+			<item value="Proveedores_Spring_JPA"/>
+			<item value="Provedores_Spring_JBDC"/>
+			<item value="servicios"/>
+			<item value="clientes_2_Spring_JPA"/>
+			<item value="Clientes_3_Spring_JDBC"/>
+			<item value="EjBean"/>
+			<item value="Administrador"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

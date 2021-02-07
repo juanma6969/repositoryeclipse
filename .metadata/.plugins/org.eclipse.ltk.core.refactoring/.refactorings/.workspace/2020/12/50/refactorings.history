@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Provedores_Spring_JBDC&apos; to &apos;Proveedores_Spring_JBDC&apos;" description="Rename resource &apos;Provedores_Spring_JBDC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Provedores_Spring_JBDC" name="Proveedores_Spring_JBDC" stamp="1607610017328" updateReferences="true"/>
+</session>

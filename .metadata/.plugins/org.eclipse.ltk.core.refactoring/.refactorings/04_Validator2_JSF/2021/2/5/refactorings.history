@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;04_Validator2_JSF/WebContent/resources.css&apos; to &apos;resources&apos;" description="Rename resource &apos;resources.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/resources.css" name="resources" stamp="1612542574461" updateReferences="true"/>
+</session>

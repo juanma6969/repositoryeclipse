@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ServicioSpringData/src/principla&apos; to &apos;principal&apos;" description="Rename resource &apos;principla&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/principla" name="principal" stamp="1610721078027" updateReferences="true"/>
+</session>

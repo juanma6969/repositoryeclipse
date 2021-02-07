@@ -1,0 +1,15 @@
+package controller;
+
+import java.util.ArrayList;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+import model.Multiplicacion;
+
+@ManagedBean(name="operacion")
+@SessionScoped
+public class OperacionController {
+private ArrayList<Multiplicacion> multi=new ArrayList<Multiplicacion>();
+	
+}

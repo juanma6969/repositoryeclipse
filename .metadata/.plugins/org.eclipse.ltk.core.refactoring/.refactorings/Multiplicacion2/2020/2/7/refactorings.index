@@ -1,0 +1,9 @@
+1581610683717	Move 'faces-config.xml' to 'WEB-INF'
+1581610689263	Move 'web.xml' to 'WEB-INF'
+1581610702427	Move 'javax.faces-2.2.4 (1).jar' to 'lib'
+1581610713877	Move 'javax.faces-2.3.9.jar' to 'lib'
+1581610735472	Move 6 resources to 'WebContent'
+1581611634572	Delete elements
+1581611678370	Delete element
+1581611827301	Copy compilation unit
+1581611840928	Delete element

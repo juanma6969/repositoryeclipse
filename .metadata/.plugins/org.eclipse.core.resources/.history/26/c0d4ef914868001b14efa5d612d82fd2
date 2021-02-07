@@ -1,0 +1,26 @@
+package model;
+
+import java.io.Serializable;
+
+public class Multiplicacion implements Serializable {
+private String multiplicacion;
+private String resultado;
+
+
+public Multiplicacion(String multi,String resultado) {
+	super();
+	this.multiplicacion=multi;
+	this.resultado=resultado;
+}
+
+public String getMultiplicacion() {
+	return multiplicacion;
+}
+
+@Override
+public String toString() {
+	return "Multiplicacion [multiplicacion=" + multiplicacion + "resultado=" + resultado + "]";
+}
+
+
+}

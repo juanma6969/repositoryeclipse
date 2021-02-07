@@ -1,0 +1,13 @@
+server.port=9009
+
+## Configuración de Thymeleaf
+
+# La caché está habilitada por defecto. Si la deshabilitamos, 
+# podemos realizar un hot swapping
+#spring.thymeleaf.cache=false
+
+# Comprobación de la existencia de la plantilla antes de intentar renderizarla
+#spring.thymeleaf.check-template=true
+
+# Comprobación de la existencia de la ruta de la plantilla
+#spring.thymeleaf.check-template-location=true

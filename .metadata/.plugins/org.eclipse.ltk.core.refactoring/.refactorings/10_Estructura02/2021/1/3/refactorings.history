@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;10_Estructura02/src/main/java/com/openwebinars/spring/servicios/Servicios.java&apos; to &apos;UnServicio.java&apos;" description="Rename resource &apos;Servicios.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/openwebinars/spring/servicios/Servicios.java" name="UnServicio.java" stamp="1611326808374" updateReferences="true"/>
+</session>

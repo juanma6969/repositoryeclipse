@@ -1,0 +1,84 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Juan Manuel\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\helloworld\com.python.pydev.analysis\v2_indexcache
+EcCont|1609080062198814200|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\EcCont.py
+Practica7|1609069963520250300|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica7.py
+Practica8|1609070083314790300|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica8.py
+Practica2py|1609067593675346200|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica2py.py
+Practica9|1609070723611451600|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica9.py
+EcRII|1609078806625997200|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\EcRII.py
+EContinue|1609079023729471600|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\EContinue.py
+EcFor|1609080032287320200|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\EcFor.py
+Practica17|1609077006086675800|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica17.py
+Practica16|1609076230577803100|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica16.py
+Practica3|1609068123034663000|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica3.py
+EcR|1609078213259249200|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\EcR.py
+Practica14|1609074473071189900|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica14.py
+Practica4|1609068736827133800|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica4.py
+Practica13|1609074194814784000|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica13.py
+Practica5|1609068733981620700|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica5.py
+Practica12|1609073125050693500|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica12.py
+Practica11|1609072810783932600|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica11.py
+Practica10|1609072134897697200|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Practica10.py
+heloworld|1609066903590890700|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\heloworld.py
+Ec|1609077633368908000|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\Ec.py
+EcR2|1609078576564329800|C:\Users\Juan Manuel\eclipse-workspace\helloworld\src\EcR2.py
+-- END DISKCACHE
+-- START DICTIONARY
+20
+3=EcCont
+20=Practica7
+1=Practica2py
+19=Practica9
+12=EcRII
+4=EContinue
+9=Practica17
+6=Practica16
+2=Practica3
+5=Practica14
+10=EcR
+14=Practica4
+8=Practica5
+13=Practica13
+17=Practica12
+18=Practica11
+15=Practica10
+16=heloworld
+7=Ec
+11=EcR2
+-- END DICTIONARY
+-- START TREE 1
+29
+alt|1|altura!11@
+bas|1|base!11@
+cO|1|cO!19@
+cT|1|cT!19@
+con|2|cont!27@cont!35@
+dec|1|decenas!43@
+dto|1|dTo!51@
+eda|1|edad!59@
+gF|1|gF!67@
+hP|1|hP!75@
+key|3|key!83@key!91@key!99@
+min|1|minP!75@
+nO|4|nO!107@nO!115@nO!43@nO!123@
+nT|3|nT!107@nT!115@nT!123@
+nom|1|nombre!131@
+nth|1|nTh!123@
+num|1|num!27@
+p|1|p!11@
+pO|2|pO!139@pO!147@
+pT|3|pT!147@pT!139@pT!155@
+pot|1|pOt!139@
+res|2|resp!91@resp!99@
+sec|3|secret!99@secret!91@secret!83@
+seg|2|segV!75@segP!75@
+tH|1|tH!163@
+tM|1|tM!163@
+uni|1|unidades!43@
+vO|1|vO!51@
+vT|1|vT!51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
